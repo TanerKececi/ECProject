@@ -82,11 +82,6 @@ class MainPage : Fragment(), ItemClickListener {
         when(booksResponse) {
             is Resource.Success -> {
                 booksResponse.data?.results?.books?.let {
-                    it.forEachIndexed { index, book ->
-                        if (index/2 == 0) {
-                            book.isFavorite = true
-                        }
-                    }
                     booksAdapter.submitList(it)
                 }
             }

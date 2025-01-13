@@ -1,7 +1,6 @@
-package com.example.ecproject.api
+package com.example.ecproject.repository.remote
 
 import com.example.ecproject.model.BooksResponse
-import com.example.ecproject.util.Constants
 import retrofit2.Response
 import javax.inject.Inject
 

@@ -13,6 +13,7 @@
     <string name="publisher">Publisher</string>
     <string name="description">Description</string>
     <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove Favorites</string>
     <string name="nextPage">Next Page</string>
     <string name="main_page_fragment">Main Page</string>
     <string name="favorite_books_fragment">Favorite Books</string>

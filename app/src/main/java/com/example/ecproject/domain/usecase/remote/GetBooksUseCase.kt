@@ -1,6 +1,8 @@
-package com.example.ecproject.domain.usecase
+package com.example.ecproject.domain.usecase.remote
 
-import com.example.ecproject.api.BooksRepository
+import com.example.ecproject.domain.usecase.FlowUseCase
+import com.example.ecproject.domain.usecase.NullParamsException
+import com.example.ecproject.repository.remote.BooksRepository
 import com.example.ecproject.model.BooksResponse
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

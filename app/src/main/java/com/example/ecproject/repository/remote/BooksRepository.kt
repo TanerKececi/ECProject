@@ -1,4 +1,4 @@
-package com.example.ecproject.api
+package com.example.ecproject.repository.remote
 
 import com.example.ecproject.model.BooksResponse
 import retrofit2.Response

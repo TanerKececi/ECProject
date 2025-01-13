@@ -7,14 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import com.example.ecproject.MainViewModel
-import com.example.ecproject.R
 import com.example.ecproject.databinding.FragmentBookDetailBinding
-import com.example.ecproject.databinding.FragmentMainPageBinding
-import com.example.ecproject.model.Book
 import com.example.ecproject.ui.viewmodel.BookDetailFragmentViewModel
-import com.example.ecproject.ui.viewmodel.MainPageViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -31,6 +26,7 @@ class BookDetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentBookDetailBinding.inflate(inflater, container, false)
+        binding.lifecycleOwner = viewLifecycleOwner
         return binding.root
     }
 
@@ -40,6 +36,13 @@ class BookDetailFragment : Fragment() {
         val args = BookDetailFragmentArgs.fromBundle(requireArguments())
         val book = args.book // Assuming 'book' is the argument name
         bookDetailViewModel.setBook(book)
+        initOnClick()
+    }
+
+    private fun initOnClick() {
+        binding.layoutBackButton.setOnClickListener {
+            requireActivity().onBackPressed()
+        }
     }
 
 }

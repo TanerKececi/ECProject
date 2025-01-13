@@ -2,9 +2,9 @@ package com.example.ecproject.di.module
 
 import android.app.Application
 import android.content.Context
-import com.example.ecproject.api.BooksApi
-import com.example.ecproject.api.BooksRepository
-import com.example.ecproject.api.BooksRepositoryImpl
+import com.example.ecproject.repository.remote.BooksApi
+import com.example.ecproject.repository.remote.BooksRepository
+import com.example.ecproject.repository.remote.BooksRepositoryImpl
 import com.example.ecproject.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
