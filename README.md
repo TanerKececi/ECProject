@@ -7,8 +7,10 @@ ECProject is an Android mobile application that leverages Retrofit for API commu
 - **Single Activity Architecture** with multiple fragments for a clean, modular design.
 - **XML Layouts with DataBinding** for a more efficient, less error-prone UI development.
 - **Retrofit Integration** for network operations and API calls.
-- **ViewModel and LiveData** for managing UI-related data in a lifecycle-conscious way.
+- **ViewModel and Flows** for managing UI-related data in a lifecycle-conscious way.
 - **Minimal Code in Activity** to keep the codebase clean and easy to maintain.
+- **RoomDB for locally stored files. Responsive ui WITHOUT internet connection.
+- **Jetpack Navigation for navigation between fragment with safe args.
 
 ## Getting Started
 
