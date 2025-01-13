@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ECProject</string>
+    <string name="back">Back</string>
+    <string name="books">Books</string>
+    <string name="your_favorite_books">Your Favorite Books</string>
+    <string name="about_the_book">About the Book</string>
+    <string name="see_favorites">See Favorites</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="rank">Rank %d</string>
+    <string name="rank_hashtag">#%d</string>
+    <string name="rankHeader">Rank</string>
+    <string name="publisher">Publisher</string>
+    <string name="description">Description</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="nextPage">Next Page</string>
+    <string name="main_page_fragment">Main Page</string>
+    <string name="favorite_books_fragment">Favorite Books</string>
+    <string name="book_detail_fragment">Book Details</string>
+</resources>
