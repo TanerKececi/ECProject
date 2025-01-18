@@ -36,7 +36,6 @@ constructor(
                 _bookData.emit(updatedBook)
             } else {
                 val updatedBook = book.copy(isFavorite = true)
-                book.isFavorite = true
                 favoriteBooksPersistUseCase.insert(book.toFavoriteBookDbModel())
                 _bookData.emit(updatedBook)
             }

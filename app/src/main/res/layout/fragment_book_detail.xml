@@ -146,7 +146,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/add_to_favorites"
                             android:textColor="@color/grey"
-                            setFavoriteText="@{model.bookData.isFavorite()}"
+                            setFavoriteText="@{model.bookData.isFavorite}"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
@@ -166,7 +166,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="5dp"
-                            setFavorite="@{model.bookData.isFavorite()}"
+                            setFavorite="@{model.bookData.isFavorite}"
                             android:src="@drawable/star_solid_empty"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toStartOf="@id/text_add_to_favorites"
